@@ -1,17 +1,22 @@
 import React from "react";
-import { Container, LeftSide, RightSide } from "./style";
-
+import { Container, LeftSide, MyImg, RightSide, Wrapper } from "./style";
+import { Outlet } from "react-router-dom";
+import myImg from "../assets/img/home1.png";
 export const Home = () => {
   return (
     <Container>
-      <LeftSide className="leftSide">
-        <div className="leftparentdiv">
-          <div className="myImg">
-            <img src={require("../assets/img/myimg.png").default} alt="myImg" />
+      <Outlet />
+      <Wrapper>
+        <LeftSide className="leftSide">
+          <div className="leftparentdiv">
+            <div className="myImg">
+              <MyImg src={myImg} />
+              <h1>test</h1>
+            </div>
           </div>
-        </div>
-      </LeftSide>
-      <RightSide className="rightSide">right</RightSide>
+        </LeftSide>
+        <RightSide className="rightSide">right</RightSide>
+      </Wrapper>
     </Container>
   );
 };
