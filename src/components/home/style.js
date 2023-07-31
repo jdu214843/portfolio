@@ -14,8 +14,9 @@ const LeftSide = styled.div`
   color: #fff;
 `;
 const MyImg = styled.div`
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
 `;
 const RightSide = styled.div`
   background-color: #000;

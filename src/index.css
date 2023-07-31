@@ -18,7 +18,11 @@ code {
     monospace;
 }
 
-.myImg img {
-  width: 100%;
-  height: 100%;
+.MyImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid yellow;
+  margin-top: 70px;
+  margin-left: 80px;
 }
