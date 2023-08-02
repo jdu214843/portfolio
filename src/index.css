@@ -84,3 +84,18 @@ body {
   color: #eee;
   padding: 1rem 0;
 }
+
+.cv_btn button {
+  padding: 10px 45px;
+  border-radius: 24px;
+  border: none !important;
+  margin-right: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #333;
+  color: #fff;
+  font-style: normal;
+}
+.cv_btn button:hover {
+  background-color: #f9ca24;
+}
