@@ -22,5 +22,14 @@ const RightSide = styled.div`
   background-color: #000;
   width: 75%;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 7rem;
 `;
-export { Container, LeftSide, RightSide, MyImg, Wrapper };
+
+const Navbar = styled.div`
+  margin-top: 20px;
+`;
+
+export { Container, LeftSide, RightSide, MyImg, Wrapper, Navbar };
