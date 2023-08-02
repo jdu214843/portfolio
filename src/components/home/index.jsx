@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, LeftSide, Navbar, RightSide, Wrapper } from "./style";
+import {
+  About,
+  Container,
+  LeftSide,
+  Navbar,
+  RightSide,
+  Title,
+  Wrapper,
+} from "./style";
 import { Outlet } from "react-router-dom";
 import myImg from "../assets/img/myImg.png";
 export const Home = () => {
@@ -31,19 +39,66 @@ export const Home = () => {
           </Navbar>
         </LeftSide>
         <RightSide className="rightSide">
-          <div className="title">
+          <Title className="title">
             <h3>HI THERE !</h3>
             <h1>
-              I'M <span>Asilbek Boysoatov</span>
+              I'M <span className="var_color">Asilbek Boysoatov</span>
             </h1>
             <p>I'm Frontend developer. I am studyed Webbrain Academy</p>
-          </div>
-          <div className="cv_btn">
-            <button>Download CV</button>
-            <button>About Me</button>
-          </div>
+            <div className="cv_btn">
+              <button className="button">Download CV</button>
+              <button className="button">About Me</button>
+            </div>
+          </Title>
         </RightSide>
       </Wrapper>
+      <About className="about">
+        <div className="aboutme">
+          <h1 className="var_color">About Me</h1>
+          <hr className="line" />
+        </div>
+        <div className="myintrodaction">
+          <div className="info">
+            <h3>
+              Name: <span className="var_color">Asilbek Boysoatov</span>
+            </h3>
+            <h3>
+              Age: <span className="var_color">20</span>
+            </h3>
+            <h3>
+              Qualification: <span className="var_color">BMS</span>
+            </h3>
+            <h3>
+              Post: <span className="var_color">FontEnd Developer</span>
+            </h3>
+            <h3>
+              Language: <span className="var_color">Uzbek</span>
+            </h3>
+            <button className="button">Download CV</button>
+          </div>
+          <div className="my_experience">
+            <div className="box">
+              <span>1</span>
+              <h3>Years of Experience</h3>
+            </div>
+            <div className="box">
+              {" "}
+              <span>10+</span>
+              <h3>Project Completed</h3>
+            </div>
+            <div className="box">
+              {" "}
+              <span>Courses</span>
+              <h3>Happy Completed</h3>
+            </div>
+            <div className="box">
+              {" "}
+              <span>10+</span>
+              <h3>Awards Won</h3>
+            </div>
+          </div>
+        </div>
+      </About>
     </Container>
   );
 };

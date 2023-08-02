@@ -44,7 +44,8 @@ body {
   list-style: none;
 }
 .navbar_list li {
-  width: 80%;
+  width: 100%;
+  padding: 0px 20px;
 }
 .navbar_list li a {
   text-decoration: none;
@@ -76,7 +77,7 @@ body {
   font-size: 3rem;
   color: #fff;
 }
-.rightSide .title h1 span {
+.var_color {
   color: #f9ca24;
 }
 .rightSide .title p {
@@ -84,8 +85,18 @@ body {
   color: #eee;
   padding: 1rem 0;
 }
+.about{
+  
+}
+.about .aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
-.cv_btn button {
+.button {
   padding: 10px 45px;
   border-radius: 24px;
   border: none !important;
@@ -96,6 +107,43 @@ body {
   color: #fff;
   font-style: normal;
 }
-.cv_btn button:hover {
+.button:hover {
   background-color: #f9ca24;
+}
+.line {
+  width: 80%;
+
+  margin-top: 20px;
+}
+.info {
+  flex: 1 1 48rem;
+}
+.info h3 {
+  line-height: 3.5rem;
+}
+.myintrodaction {
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+}
+.my_experience {
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.my_experience .box {
+  width: 45%;
+  background: #222;
+  text-align: center;
+  padding: 2rem;
+}
+.my_experience .box span {
+  font-size: 2.3rem;
+  color: #f9ca24;
+}
+.my_experience .box h3 {
+  font-size: 1.3rem;
+  color: #fff;
 }
