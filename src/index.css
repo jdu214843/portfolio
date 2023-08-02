@@ -85,9 +85,7 @@ body {
   color: #eee;
   padding: 1rem 0;
 }
-.about{
-  
-}
+
 .about .aboutme {
   display: flex;
   flex-direction: column;
