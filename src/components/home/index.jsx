@@ -2,6 +2,7 @@ import React from "react";
 import {
   About,
   Container,
+  Education,
   LeftSide,
   Navbar,
   RightSide,
@@ -27,7 +28,7 @@ export const Home = () => {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#myinfo">About</a>
               </li>
               <li>
                 <a href="#">Project</a>
@@ -46,8 +47,14 @@ export const Home = () => {
             </h1>
             <p>I'm Frontend developer. I am studyed Webbrain Academy</p>
             <div className="cv_btn">
-              <button className="button">Download CV</button>
-              <button className="button">About Me</button>
+              <button className="button">
+                <a href="">Download CV </a>
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </button>
+              <button className="button" id="myinfo">
+                <a href="#myinfo">About Me</a>{" "}
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </button>
             </div>
           </Title>
         </RightSide>
@@ -58,7 +65,7 @@ export const Home = () => {
           <hr className="line" />
         </div>
         <div className="myintrodaction">
-          <div className="info">
+          <div className="info" id="myinfo">
             <h3>
               Name: <span className="var_color">Asilbek Boysoatov</span>
             </h3>
@@ -74,7 +81,10 @@ export const Home = () => {
             <h3>
               Language: <span className="var_color">Uzbek</span>
             </h3>
-            <button className="button">Download CV</button>
+            <button className="button3">
+              <a href="">Download CV </a>
+              <i class="fa fa-download" aria-hidden="true"></i>
+            </button>
           </div>
           <div className="my_experience">
             <div className="box">
@@ -99,6 +109,13 @@ export const Home = () => {
           </div>
         </div>
       </About>
+      <Education className="education">
+        <div className="my_education">
+          <h1 className="var_color">My Education</h1>
+          <hr className="line" />
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+        </div>
+      </Education>
     </Container>
   );
 };

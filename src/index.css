@@ -14,7 +14,7 @@ body {
   text-transform: capitalize;
   font-family: "Nunito", sans-serif;
   transition: all 0.2s linear;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 .MyImg {
@@ -36,6 +36,7 @@ body {
 .MySkil {
   font-size: 18px;
 }
+
 .navbar_list {
   display: flex;
   flex-direction: column;
@@ -105,12 +106,31 @@ body {
   color: #fff;
   font-style: normal;
 }
+.button3 {
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 24px;
+  border: none !important;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+}
+.button a {
+  color: #fff;
+  text-decoration: none !important;
+}
+.button3 a {
+  color: #fff;
+  text-decoration: none !important;
+}
+.button3:hover {
+  background-color: #f9ca24;
+}
 .button:hover {
   background-color: #f9ca24;
 }
 .line {
   width: 80%;
-
   margin-top: 20px;
 }
 .info {
@@ -144,4 +164,20 @@ body {
 .my_experience .box h3 {
   font-size: 1.3rem;
   color: #fff;
+}
+.fa-download {
+  font-size: 20px;
+}
+
+.fa-user {
+  font-size: 20px;
+}
+/* end about */
+/* start education */
+.my_education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
