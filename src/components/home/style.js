@@ -13,11 +13,7 @@ const LeftSide = styled.div`
   display: block;
   height: 100%;
 `;
-const MyImg = styled.div`
-  width: 50px;
-  height: 50px;
-  border: 1px solid red;
-`;
+
 const RightSide = styled.div`
   display: flex;
   justify-content: center;
@@ -57,7 +53,6 @@ export {
   Container,
   LeftSide,
   RightSide,
-  MyImg,
   Wrapper,
   Title,
   Navbar,

@@ -12,7 +12,7 @@ body {
   margin: 0px;
   box-sizing: border-box;
   text-transform: capitalize;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   transition: all 0.2s linear;
   /* scroll-behavior: smooth; */
 }
@@ -175,9 +175,63 @@ body {
 /* end about */
 /* start education */
 .my_education {
+  min-height: 100vh;
+  padding: 1rem;
+}
+.my_education h1 {
+  font-size: 42px;
+}
+
+.boxparent {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 30px;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+}
+.boxparent .box {
+  width: 17.5rem;
+  margin: 2.5rem 1rem;
+  padding-left: 3rem;
+  border-left: 0.1rem solid #fff;
+  position: relative;
+}
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #fff;
+  color: #fff;
+}
+.boxparent .box i {
+  position: absolute;
+  top: -1rem;
+  left: -1.6rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #f9ca24;
+}
+.boxparent .box h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  padding-top: 1.5rem;
+}
+.boxparent .box span {
+  font-size: 1rem;
+  background-color: #222;
+  color: #fff;
+  border-radius: 5rem;
+  padding: 0.3rem 1.5rem;
+}
+.boxparent .box p {
+  font-size: 1rem;
+  color: #eee;
+  padding: 1rem 0;
 }
