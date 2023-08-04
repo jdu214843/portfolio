@@ -20,9 +20,10 @@ const RightSide = styled.div`
 
   flex-direction: column;
   align-items: center;
-  margin-left: 350px;
+  margin-left: 352px;
+
   min-height: 100vh;
-  background-color: black;
+  background-color: #111111;
   width: 100%;
 `;
 
@@ -33,22 +34,30 @@ const Title = styled.div``;
 
 const About = styled.div`
   min-height: 100vh;
-  background-color: #000;
+  background-color: #111111;
+
   color: #fff;
   display: flex;
   flex-direction: column;
-  margin-left: 350px;
+  margin-left: 352px;
 `;
 
 const Education = styled.div`
   min-height: 100vh;
-  background-color: #000;
+  background-color: #111111;
   color: #fff;
   display: flex;
   flex-direction: column;
-  margin-left: 350px;
+  margin-left: 352px;
 `;
-
+const Portfolio = styled.div`
+  min-height: 100vh;
+  background-color: #111111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 352px;
+`;
 export {
   Container,
   LeftSide,
@@ -58,4 +67,5 @@ export {
   Navbar,
   About,
   Education,
+  Portfolio,
 };

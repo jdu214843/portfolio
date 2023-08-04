@@ -5,6 +5,7 @@ import {
   Education,
   LeftSide,
   Navbar,
+  Portfolio,
   RightSide,
   Title,
   Wrapper,
@@ -49,20 +50,21 @@ export const Home = () => {
             <div className="cv_btn">
               <button className="button">
                 <a href="#cv">Download CV </a>
-                <i class="fa fa-download" aria-hidden="true"></i>
+                <i className="fa fa-download" aria-hidden="true"></i>
               </button>
               <button className="button" id="myinfo">
                 <a href="#myinfo">About Me</a>{" "}
-                <i class="fa fa-user" aria-hidden="true"></i>
+                <i className="fa fa-user" aria-hidden="true"></i>
               </button>
             </div>
           </Title>
         </RightSide>
       </Wrapper>
       <About className="about">
-        <div className="aboutme">
-          <h1 className="var_color">About Me</h1>
-          <hr className="line" />
+        <div className="heading">
+          <h1>
+            <span className="var_color">About</span> Me
+          </h1>
         </div>
         <div className="myintrodaction">
           <div className="info" id="myinfo">
@@ -83,7 +85,7 @@ export const Home = () => {
             </h3>
             <button className="button3">
               <a href="#cv">Download CV </a>
-              <i class="fa fa-download" aria-hidden="true"></i>
+              <i className="fa fa-download" aria-hidden="true"></i>
             </button>
           </div>
           <div className="my_experience">
@@ -119,7 +121,7 @@ export const Home = () => {
 
           <div className="boxparent">
             <div className="box">
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <i className="fa fa-graduation-cap" aria-hidden="true"></i>
               <span>2020</span>
               <h3>Termiz IT Center</h3>
               <p>
@@ -130,7 +132,7 @@ export const Home = () => {
               </p>
             </div>
             <div className="box">
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <i className="fa fa-graduation-cap" aria-hidden="true"></i>
               <span>2020</span>
               <h3>Termiz IT Center</h3>
               <p>
@@ -141,7 +143,7 @@ export const Home = () => {
               </p>
             </div>
             <div className="box">
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <i className="fa fa-graduation-cap" aria-hidden="true"></i>
               <span>2020</span>
               <h3>Termiz IT Center</h3>
               <p>
@@ -152,7 +154,7 @@ export const Home = () => {
               </p>
             </div>
             <div className="box">
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <i className="fa fa-graduation-cap" aria-hidden="true"></i>
               <span>2020</span>
               <h3>Termiz IT Center</h3>
               <p>
@@ -163,7 +165,7 @@ export const Home = () => {
               </p>
             </div>
             <div className="box">
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <i className="fa fa-graduation-cap" aria-hidden="true"></i>
               <span>2020</span>
               <h3>Termiz IT Center</h3>
               <p>
@@ -174,7 +176,7 @@ export const Home = () => {
               </p>
             </div>
             <div className="box">
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <i className="fa fa-graduation-cap" aria-hidden="true"></i>
               <span>2020</span>
               <h3>Termiz IT Center</h3>
               <p>
@@ -187,6 +189,13 @@ export const Home = () => {
           </div>
         </div>
       </Education>
+      <Portfolio>
+        <div className="heading">
+          <h1>
+            My <span className="var_color">Portfolio</span>
+          </h1>
+        </div>
+      </Portfolio>
     </Container>
   );
 };
