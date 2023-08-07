@@ -237,3 +237,29 @@ body {
   color: #eee;
   padding: 1rem 0;
 }
+
+/* started portfolio section */
+.portfolio_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  justify-content: center;
+}
+.portfolio_box .box_1 {
+  width: 270px;
+  border-radius: 18px;
+  background-color: blue;
+  min-height: 200px;
+}
+.box_1 a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+.box_2 a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+/* ended portfolio section */

@@ -12,6 +12,8 @@ import {
 } from "./style";
 import { Outlet } from "react-router-dom";
 import myImg from "../assets/img/myImg.png";
+import houzing from "../assets/img/houzing2.jpg";
+import asilMedia from "../assets/img/asilmedi.jpg";
 export const Home = () => {
   return (
     <Container>
@@ -194,6 +196,22 @@ export const Home = () => {
           <h1>
             My <span className="var_color">Portfolio</span>
           </h1>
+        </div>
+        <div className="portfolio_box">
+          <div className="box_1">
+            <a href="https://houzingshop.netlify.app">
+              <img src={houzing} alt="Houzing" />
+            </a>
+          </div>
+          <div className="box_1">
+            <a href="https://asil-social.netlify.app">
+              <img src={asilMedia} alt="" />
+            </a>
+          </div>
+          <div className="box_1">3</div>
+          <div className="box_1">4</div>
+          <div className="box_1">5</div>
+          <div className="box_1">6</div>
         </div>
       </Portfolio>
     </Container>
