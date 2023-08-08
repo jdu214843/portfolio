@@ -11,7 +11,7 @@ import {
   Wrapper,
 } from "./style";
 import { Outlet } from "react-router-dom";
-import myImg from "../assets/img/myImg.png";
+import myImg from "../assets/img/myimg.png";
 import houzing from "../assets/img/houzing2.jpg";
 import asilMedia from "../assets/img/asilmedi.jpg";
 import edu from "../assets/img/edu.jpg";
