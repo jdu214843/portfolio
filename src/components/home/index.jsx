@@ -1,6 +1,7 @@
 import React from "react";
 import {
   About,
+  Contact,
   Container,
   Education,
   LeftSide,
@@ -234,6 +235,47 @@ export const Home = () => {
           </div>
         </div>
       </Portfolio>
+      <Contact>
+        <div className="heading">
+          <h1>
+            <span className="var_color">Contact</span> Me
+          </h1>
+        </div>
+        <div className="contact_section">
+          <div className="leftContactSide">
+            <h1>Contact Info</h1>
+            <i className="fas fa-envelope" aria-hidden="true">
+              <span> Boysoatov003@gmail.com</span>
+            </i>
+            <i className="fa fa-phone">
+              <span> +99 891 582 71 71</span>
+            </i>
+            <i className="fa fa-phone">
+              <span> +99 891 582 71 71</span>
+            </i>
+            <i className="fa fa-map-marker" aria-hidden="true">
+              {" "}
+              <span> Uzbekistan, Tashkent Chilonzor</span>
+            </i>
+          </div>
+
+          <div className="rifghtContactSide">
+            <div className="contact_message_section">
+              <input type="text" name="Name" placeholder="Name" />
+              <input type="text" name="email" placeholder="Email" />
+              <input type="text" name="Project" placeholder="Project" />
+              <textarea
+                name="message"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="message"
+              ></textarea>
+              <button type="submit" value="Submit"></button>
+            </div>
+          </div>
+        </div>
+      </Contact>
     </Container>
   );
 };

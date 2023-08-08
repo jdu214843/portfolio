@@ -267,3 +267,56 @@ body {
 }
 
 /* ended portfolio section */
+/* started contact section */
+.contact_section {
+  display: flex;
+
+  padding: 0px 70px;
+  gap: 20px;
+}
+
+.leftContactSide {
+  margin-top: 100px;
+  flex: 1 1 30rem;
+  display: flex;
+  flex-direction: column;
+}
+.leftContactSide h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+.leftContactSide i {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #f9ca24;
+}
+.leftContactSide span {
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #eee;
+}
+.rifghtContactSide {
+  flex: 1 1 45rem;
+}
+.contact_message_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact_message_section input {
+  padding: 15px;
+  border: none !important;
+  outline: none !important;
+  border-radius: 8px !important;
+  background-color: #333;
+  color: #eee;
+}
+.contact_message_section #textarea {
+  border: none !important;
+  outline: none !important;
+  border-radius: 8px !important;
+  background-color: #333;
+  color: #eee;
+}
+/* ended contact section */

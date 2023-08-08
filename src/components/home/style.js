@@ -58,6 +58,15 @@ const Portfolio = styled.div`
   flex-direction: column;
   margin-left: 352px;
 `;
+const Contact = styled.div`
+  min-height: 100vh;
+  background-color: #111111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 352px;
+`;
 export {
   Container,
   LeftSide,
@@ -68,4 +77,5 @@ export {
   About,
   Education,
   Portfolio,
+  Contact,
 };
