@@ -14,6 +14,10 @@ import { Outlet } from "react-router-dom";
 import myImg from "../assets/img/myImg.png";
 import houzing from "../assets/img/houzing2.jpg";
 import asilMedia from "../assets/img/asilmedi.jpg";
+import edu from "../assets/img/edu.jpg";
+import product from "../assets/img/products.jpg";
+
+import movies from "../assets/img/movies.jpeg";
 export const Home = () => {
   return (
     <Container>
@@ -208,10 +212,26 @@ export const Home = () => {
               <img src={asilMedia} alt="" />
             </a>
           </div>
-          <div className="box_1">3</div>
-          <div className="box_1">4</div>
-          <div className="box_1">5</div>
-          <div className="box_1">6</div>
+          <div className="box_1">
+            <a href="#">
+              <img src={edu} alt="edu" />
+            </a>
+          </div>
+          <div className="box_1">
+            <a href="#">
+              <img src={product} alt="watch" />
+            </a>
+          </div>
+          <div className="box_1">
+            <a href="#">
+              <img src={movies} alt="movies" />
+            </a>
+          </div>
+          <div className="box_1">
+            <a href="#">
+              <img src={product} alt="product" />
+            </a>
+          </div>
         </div>
       </Portfolio>
     </Container>
