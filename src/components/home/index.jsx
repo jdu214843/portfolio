@@ -16,8 +16,8 @@ import houzing from "../assets/img/houzing2.jpg";
 import asilMedia from "../assets/img/asilmedi.jpg";
 import edu from "../assets/img/edu.jpg";
 import product from "../assets/img/products.jpg";
-
 import movies from "../assets/img/movies.jpeg";
+
 export const Home = () => {
   return (
     <Container>
@@ -52,7 +52,7 @@ export const Home = () => {
             <h1>
               I'M <span className="var_color">Asilbek Boysoatov</span>
             </h1>
-            <p>I'm Frontend developer. I am studyed Webbrain Academy</p>
+            <p>I'm Frontend developer. I am studied at Webbrain Academy</p>
             <div className="cv_btn">
               <button className="button">
                 <a href="#cv">Download CV </a>
@@ -66,7 +66,7 @@ export const Home = () => {
           </Title>
         </RightSide>
       </Wrapper>
-      <About className="about">
+      <About className="about" id="myinfo">
         <div className="heading">
           <h1>
             <span className="var_color">About</span> Me
@@ -209,37 +209,31 @@ export const Home = () => {
           </div>
           <div className="box_1">
             <a href="https://asil-social.netlify.app">
-              <img src={asilMedia} alt="" />
+              <img src={asilMedia} alt="Asil Social" />
             </a>
           </div>
           <div className="box_1">
-            <a href="#home">
-              <img src={edu} alt="edu" />
+            <a href="#edu">
+              <img src={edu} alt="Education" />
             </a>
           </div>
           <div className="box_1">
             <a href="#about">
-              <img src={product} alt="watch" />
+              <img src={product} alt="Product" />
             </a>
           </div>
           <div className="box_1">
             <a href="#contact">
-              <img src={movies} alt="movies" />
+              <img src={movies} alt="Movies" />
             </a>
           </div>
           <div className="box_1">
-            <a href="#home">
-              <img src={product} alt="product" />
+            <a href="#portfolio">
+              <img src={product} alt="Product" />
             </a>
           </div>
         </div>
       </Portfolio>
-
-      <div className="heading">
-        <h1>
-          My <span className="var_color">Portfolio</span>
-        </h1>
-      </div>
     </Container>
   );
 };
