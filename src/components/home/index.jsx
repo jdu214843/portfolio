@@ -213,27 +213,33 @@ export const Home = () => {
             </a>
           </div>
           <div className="box_1">
-            <a href="#">
+            <a href="#home">
               <img src={edu} alt="edu" />
             </a>
           </div>
           <div className="box_1">
-            <a href="#">
+            <a href="#about">
               <img src={product} alt="watch" />
             </a>
           </div>
           <div className="box_1">
-            <a href="#">
+            <a href="#contact">
               <img src={movies} alt="movies" />
             </a>
           </div>
           <div className="box_1">
-            <a href="#">
+            <a href="#home">
               <img src={product} alt="product" />
             </a>
           </div>
         </div>
       </Portfolio>
+
+      <div className="heading">
+        <h1>
+          My <span className="var_color">Portfolio</span>
+        </h1>
+      </div>
     </Container>
   );
 };
