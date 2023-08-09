@@ -17,11 +17,9 @@ const LeftSide = styled.div`
 const RightSide = styled.div`
   display: flex;
   justify-content: center;
-
   flex-direction: column;
-  align-items: center;
+  padding: 0 10rem;
   margin-left: 352px;
-
   min-height: 100vh;
   background-color: #111111;
   width: 100%;
@@ -30,12 +28,17 @@ const RightSide = styled.div`
 const Navbar = styled.div`
   margin-top: 20px;
 `;
-const Title = styled.div``;
+
+const Title = styled.div`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
 
 const About = styled.div`
   min-height: 100vh;
   background-color: #111111;
-
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -50,6 +53,7 @@ const Education = styled.div`
   flex-direction: column;
   margin-left: 352px;
 `;
+
 const Portfolio = styled.div`
   min-height: 100vh;
   background-color: #111111;
@@ -58,6 +62,7 @@ const Portfolio = styled.div`
   flex-direction: column;
   margin-left: 352px;
 `;
+
 const Contact = styled.div`
   min-height: 100vh;
   background-color: #111111;

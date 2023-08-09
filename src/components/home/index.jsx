@@ -62,7 +62,7 @@ export const Home = () => {
                 <i className="fa fa-download" aria-hidden="true"></i>
               </button>
               <button className="button" id="myinfo">
-                <a href="#about">About Me</a>{" "}
+                <a href="#myinfo">About Me</a>{" "}
                 <i className="fa fa-user" aria-hidden="true"></i>
               </button>
             </div>
@@ -198,7 +198,7 @@ export const Home = () => {
           </div>
         </div>
       </Education>
-      <Portfolio id="portfolio">
+      <Portfolio id="portfolio" className="portfolio">
         <div className="heading">
           <h1>
             My <span className="var_color">Portfolio</span>
@@ -237,7 +237,7 @@ export const Home = () => {
           </div>
         </div>
       </Portfolio>
-      <Contact id="contact">
+      <Contact id="contact" className="contact">
         <div className="heading">
           <h1>
             <span className="var_color">Contact</span> Me

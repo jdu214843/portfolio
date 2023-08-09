@@ -14,7 +14,7 @@ body {
   text-transform: capitalize;
   font-family: "Nunito";
   transition: all 0.2s linear;
-  scroll-behavior: smooth scroll;
+  scroll-behavior: smooth;
 }
 
 .MyImg {
@@ -82,7 +82,7 @@ body {
   color: #f9ca24;
 }
 .rightSide .title p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #eee;
   padding: 1rem 0;
 }
@@ -290,11 +290,13 @@ body {
   padding-bottom: 2rem;
   font-size: 1.5rem;
   color: #f9ca24;
+  display: flex;
 }
 .leftContactSide span {
   font-weight: normal;
   font-size: 1.5rem;
   color: #eee;
+  padding-left: 10px;
 }
 .rifghtContactSide {
   flex: 1 1 45rem;
@@ -339,3 +341,60 @@ body {
   margin-left: 10px;
 }
 /* ended contact section */
+
+/* media started  */
+@media only screen and (max-width: 1065px) {
+  .button {
+    margin-bottom: 10px;
+  }
+  .myintrodaction {
+    display: block !important;
+  }
+  .my_experience {
+    margin-top: 20px;
+  }
+  .boxparent {
+    justify-content: center !important;
+  }
+  .boxparent .box {
+    width: 16.5rem;
+  }
+  .leftContactSide h1 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .button {
+    margin-bottom: 10px;
+  }
+  .myintrodaction {
+    display: block !important;
+  }
+  .my_experience {
+    margin-top: 20px;
+  }
+  .boxparent {
+    justify-content: center !important;
+  }
+  .boxparent .box {
+    width: 16.5rem;
+  }
+  .leftContactSide h1 {
+    font-size: 1.5rem;
+  }
+  .contact_section {
+    display: block;
+  }
+
+  .eNlnSb {
+    display: none !important;
+  }
+  .rightSide,
+  .about,
+  .education,
+  .portfolio,
+  .contact {
+    margin: 0px !important;
+  }
+}
+/* media end */
