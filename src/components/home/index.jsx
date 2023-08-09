@@ -22,7 +22,6 @@ import movies from "../assets/img/movies.jpeg";
 export const Home = () => {
   return (
     <Container>
-      <Outlet />
       <Wrapper>
         <LeftSide className="leftSide">
           <div className="Myabout">
@@ -39,7 +38,10 @@ export const Home = () => {
                 <a href="#myinfo">About</a>
               </li>
               <li>
-                <a href="#project">Project</a>
+                <a href="#educations">Education</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -47,7 +49,7 @@ export const Home = () => {
             </ul>
           </Navbar>
         </LeftSide>
-        <RightSide className="rightSide">
+        <RightSide className="rightSide" id="home">
           <Title className="title">
             <h3>HI THERE !</h3>
             <h1>
@@ -60,7 +62,7 @@ export const Home = () => {
                 <i className="fa fa-download" aria-hidden="true"></i>
               </button>
               <button className="button" id="myinfo">
-                <a href="#myinfo">About Me</a>{" "}
+                <a href="#about">About Me</a>{" "}
                 <i className="fa fa-user" aria-hidden="true"></i>
               </button>
             </div>
@@ -118,7 +120,7 @@ export const Home = () => {
           </div>
         </div>
       </About>
-      <Education className="education">
+      <Education className="education" id="educations">
         <div className="my_education">
           <div className="heading">
             <h1>
@@ -196,7 +198,7 @@ export const Home = () => {
           </div>
         </div>
       </Education>
-      <Portfolio>
+      <Portfolio id="portfolio">
         <div className="heading">
           <h1>
             My <span className="var_color">Portfolio</span>
@@ -235,7 +237,7 @@ export const Home = () => {
           </div>
         </div>
       </Portfolio>
-      <Contact>
+      <Contact id="contact">
         <div className="heading">
           <h1>
             <span className="var_color">Contact</span> Me
@@ -271,11 +273,15 @@ export const Home = () => {
                 rows="10"
                 placeholder="message"
               ></textarea>
-              <button type="submit" value="Submit"></button>
+
+              <button className="sendbtn" type="submit" value="Submit">
+                Send <i className="fa fa-paper-plane" aria-hidden="true"></i>
+              </button>
             </div>
           </div>
         </div>
       </Contact>
+      <Outlet />
     </Container>
   );
 };
