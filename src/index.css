@@ -69,6 +69,9 @@ body {
 /* left side end */
 /* right side start */
 
+.rightSide {
+  padding: 0 5rem;
+}
 .rightSide .title h3 {
   font-size: 2rem;
   color: #fff;
@@ -343,6 +346,11 @@ body {
 /* ended contact section */
 
 /* media started  */
+@media only screen and (max-width: 1252) {
+  .my_experience {
+    gap: 20px !important;
+  }
+}
 @media only screen and (max-width: 1065px) {
   .button {
     margin-bottom: 10px;
@@ -363,7 +371,7 @@ body {
     font-size: 1.5rem;
   }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
   .button {
     margin-bottom: 10px;
   }
@@ -396,10 +404,151 @@ body {
   .contact {
     margin: 0px !important;
   }
-}
-@media only screen and (max-width: 1252) {
+  .my_education {
+    padding: 0px;
+  }
+  .boxparent {
+    padding-left: 2rem;
+  }
+
+  .boxparent .box p {
+    font-size: 0.7rem;
+  }
+  .boxparent .box h3 {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  .portfolio_box {
+    margin-top: 25px;
+  }
+  .contact_section {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+  }
+  .leftContactSide {
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .leftContactSide span {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  .leftContactSide i {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+  }
+  .contact_message_section {
+    margin-top: 50px;
+  }
+  .portfolio_box .box_1 {
+    width: 15rem;
+    height: 10rem;
+  }
   .my_experience {
-    gap: 20px !important;
+    margin-bottom: 20px;
+  }
+  .contact_section {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rightSide {
+    padding: 2rem !important;
+  }
+  .rightSide .title h3 {
+    font-size: 1rem !important;
+  }
+  .rightSide .title h1 {
+    font-size: 2.5rem;
+  }
+  .rightSide .title p {
+    font-size: 1.5rem !important;
+  }
+  .button {
+    font-size: 14px !important;
+    padding: 5px 20px !important;
+  }
+  .fa-download {
+    font-size: small;
+  }
+  .fa-user {
+    font-size: small !important;
+  }
+  .heading {
+    margin: 0 2rem;
+  }
+  .heading h1 {
+    font-size: 2.2rem !important;
+  }
+  .info h3 {
+    line-height: 2.5rem;
+  }
+  .button3 {
+    width: auto;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin-top: 0.5rem !important;
+  }
+  .myintrodaction {
+    padding: 0px 25px;
+  }
+  .my_experience .box {
+    width: 25%;
+    padding: 0.8rem;
+  }
+  .info {
+    padding: 0.8rem;
+  }
+  .my_education {
+    padding: 0px;
+  }
+  .boxparent {
+    padding-left: 2rem;
+  }
+  .boxparent .box {
+    width: 20rem !important;
+    padding-left: 2.5rem;
+    margin: 2rem 1rem;
+  }
+  .boxparent .box p {
+    font-size: 0.7rem;
+  }
+  .boxparent .box h3 {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  .portfolio_box {
+    margin-top: 25px;
+  }
+  .contact_section {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+  }
+  .leftContactSide {
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .leftContactSide span {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  .leftContactSide i {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+  }
+  .contact_message_section {
+    margin-top: 50px;
+  }
+  .portfolio_box .box_1 {
+    width: 15rem;
+    height: 10rem;
+  }
+  .my_experience {
+    margin-bottom: 20px;
+  }
+  .contact_section {
+    display: flex;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -454,7 +603,7 @@ body {
     padding: 0px;
   }
   .boxparent {
-    padding-left: 0px;
+    padding-left: 2rem;
   }
   .boxparent .box {
     width: 20rem !important;
@@ -494,6 +643,9 @@ body {
   }
   .my_experience {
     margin-bottom: 20px;
+  }
+  .contact_section {
+    display: block !important;
   }
 }
 
