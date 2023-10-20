@@ -62,21 +62,21 @@ export const Home = () => {
                 <i className="fa fa-download" aria-hidden="true"></i>
               </button>
               <button className="button" id="myinfo">
-                <a href="#myinfo">About Me</a>{" "}
+                <a href="#">About Me</a>{" "}
                 <i className="fa fa-user" aria-hidden="true"></i>
               </button>
             </div>
           </Title>
         </RightSide>
       </Wrapper>
-      <About className="about" id="myinfo">
+      <About className="about" id="#myinfo">
         <div className="heading">
           <h1>
             <span className="var_color">About</span> Me
           </h1>
         </div>
         <div className="myintrodaction">
-          <div className="info" id="myinfo">
+          <div className="info">
             <h3>
               Name: <span className="var_color">Asilbek Boysoatov</span>
             </h3>
